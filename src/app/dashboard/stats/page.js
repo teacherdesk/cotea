@@ -56,7 +56,7 @@ export default function StatsPage() {
     onOpen();
   };
 
-  // 다이얼로그에서 입력된 내용 저장
+  // 다이얼로그에서 입력된 내용 저장 ff
   const handleSaveContent = (content) => {
     setCardContents((prev) => ({
       ...prev,
